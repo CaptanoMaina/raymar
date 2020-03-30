@@ -1,8 +1,9 @@
 body{
-  background-color: #FFFFFF;
+  background-size:cover;
   font-family: 'Merriweather',serif;
   margin: 0;
   text-align: center;
+  font-weight: normal;
 
 }
 .hells{
@@ -13,7 +14,38 @@ body{
  border-radius: 0;
  padding: 50px 0 0 50px;
 }
-
+.mbs{
+  float: right;
+  width: 50%;
+  height: 70%;
+  padding-top: 30px;
+ border-radius: 0;
+ padding: 50px 0 0 50px;
+}
+.abd{
+  float: right;
+  width: 50%;
+  height: 70%;
+  padding-top: 30px;
+ border-radius: 0;
+ padding: 50px 0 0 50px;
+}
+.wtm{
+  float: left;
+  width: 50%;
+  height: 70%;
+  padding-top: 30px;
+ border-radius: 0;
+ padding: 50px 0 0 50px;
+}
+.nkr{
+  float: left;
+  width: 50%;
+  height: 70%;
+  padding-top: 30px;
+ border-radius: 0;
+ padding: 50px 0 0 50px;
+}
 h1{
    color:#FF4112;
    font-family: 'EB Garamond', serif;
@@ -29,6 +61,7 @@ h1{
     font-family: 'Montserrat',sans-serif;
     text-align: center;
     font-weight: bold;
+    padding-top: 30px;
   }
 
   .longonot{
@@ -36,48 +69,66 @@ h1{
     font-size: 1.5rem;
     margin: 10px auto 0 auto;
     font-family: 'Montserrat',sans-serif;
+    font-weight: bold;
+    padding-top: 30px;
   }
   .nakuru{
     color: #FF4112;
     font-size: 1.5rem;
     margin: 10px auto 0 auto;
     font-family: 'Montserrat',sans-serif;
+    font-weight: bold;
+    padding-top: 30px;
+    font-weight: bold;
+    padding-top: 30px;
   }
   .aforest{
     color: #FF4112;
     font-size: 1.5rem;
     margin: 10px auto 0 auto;
     font-family: 'Montserrat',sans-serif;
+    font-weight: bold;
+    padding-top: 30px;
   }
   .mtkenya{
     color: #FF4112;
     font-size: 1.5rem;
     margin: 10px auto 0 auto;
     font-family: 'Montserrat',sans-serif;
+    font-weight: bold;
+    padding-top: 30px;
   }
   .nanyuki{
     color: #FF4112;
     font-size: 1.5rem;
     margin: 10px auto 0 auto;
     font-family: 'Montserrat',sans-serif;
+    font-weight: bold;
+    padding-top: 30px;
   }
   .voi{
     color: #FF4112;
     font-size: 1.5rem;
     margin: 10px auto 0 auto;
     font-family: 'Montserrat',sans-serif;
+    font-weight: bold;
+    padding-top: 30px;
   }
   .mombasa{
     color: #FF4112;
     font-size: 1.5rem;
     margin: 10px auto 0 auto;
     font-family: 'Montserrat',sans-serif;
+    font-weight: bold;
+    padding-top: 30px;
   }
   .watamu{
     color: #FF4112;
     font-size: 1.5rem;
     margin: 10px auto 0 auto;
     font-family: 'Montserrat',sans-serif;
+    font-weight: bold;
+    padding-top: 30px;
   }
 
 
@@ -86,7 +137,16 @@ h2{
   font-size: 2.5rem;
   margin: 10px auto 0 auto;
   font-family: 'Montserrat',sans-serif;
-  text-align: left;
+  text-align: center;
+
+}
+
+h3{
+  color: #FF4112;
+  font-size: 1.5rem;
+  margin: 10px auto 0 auto;
+  font-family: 'Montserrat',sans-serif;
+  text-align: center;
 
 }
 h5{
@@ -95,7 +155,12 @@ h5{
   margin: 50px auto 0 auto;
   font-family: 'Montserrat',sans-serif;
 }
-
+h6{
+  color: #FF4112;
+  font-size: .7rem;
+  margin: 10px auto 0 auto;
+  font-family: 'Montserrat',sans-serif;
+}
 a{
   text-decoration: none;
 }
@@ -104,9 +169,10 @@ a{
   padding: 0 300px 0 300px;
 }
 .res-container{
-  padding: 0;
+padding: 0 600px 0 100px;
   margin: auto;
-
+  text-align: center;
+color: white;
 }
 nav{
   background:#000000;
@@ -162,14 +228,23 @@ a:hover{
       display: block;
       padding: 0 0 0 0;
     }
+    .res-container{
+      display: block;
+      padding: 0 0 0 0;
+    }
     }
 
     .bottom-container {
       padding: 80px 0 0;
       margin-bottom: 0;
-
     }
 
+    .Copyright2{
+      color: white;
+      font-size: 75%;
+      padding: 20px 0;
+    }
+/* button generated using css button generator */
 .btn {
   font-family: arial;
   color: #FFFFFF !important;

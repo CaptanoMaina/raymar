@@ -14,8 +14,9 @@ h2{
   margin: 10px auto 0 auto;
   font-family: 'Montserrat',sans-serif;
   text-align: center;
-
 }
+/* Navigation Bar */
+
 a{
   text-decoration: none;
 }
@@ -67,6 +68,7 @@ a:hover{
   background: #7D2011;
   transition: .5s;
 }
+/* Responsive Elements */
 @media screen and (max-width:768px){
     nav{
       height: 105px;
@@ -75,10 +77,11 @@ a:hover{
    background-size: cover;
  }
 
+
   }
     .top-container{
-
-      padding: 20px 0 200px 0;
+      display: block;
+      padding: 0 100px 100px  100px;
     }
     }
 
@@ -92,6 +95,7 @@ a:hover{
       font-size: 75%;
       padding: 20px 0;
 }
+/* button generated using css button generator */
 .btn {
   font-family: arial;
   color: #FFFFFF !important;
